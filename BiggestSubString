@@ -1,0 +1,19 @@
+import Foundation
+
+var str:String="i am amol chavhan"
+ 
+var longest:String=""
+var maxlength:Int=0
+
+var arr:[String] = str.components(separatedBy:" ")
+
+for i in 0..<arr.count {
+   print(arr[i]);
+
+  if(arr[i].characters.count > maxlength){
+         maxlength = arr[i].characters.count
+         longest = arr[i]
+  }   
+}      
+  
+print("Longest substring is: \(longest)")
