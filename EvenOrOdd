@@ -1,0 +1,7 @@
+var number:Int = 35
+
+if((number % 2)==0){
+   print("\(number) is Even number")
+}else{
+   print("\(number) is Odd Number")
+}
