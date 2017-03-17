@@ -1,0 +1,12 @@
+var a:String = "aabbvvssssssssss"
+var char:Character = "s"
+
+var count:Int = 0 
+
+for i in 0..<a.characters.count {
+	if a[a.index(a.startIndex, offsetBy: i)] == char {
+		count += 1
+	}
+}
+
+print(count)
