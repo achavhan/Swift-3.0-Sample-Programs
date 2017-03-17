@@ -1,0 +1,8 @@
+var str:String="MADAM"
+var revstring:String=String(str.characters.reversed())
+
+if str == revstring {
+	print("Palindrome")
+} else {
+	print("Not Palindrome")
+}
