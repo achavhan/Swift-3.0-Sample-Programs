@@ -1,0 +1,14 @@
+var x:Int=20
+var y:Int=30
+ 
+print("Before Swapping")
+print("Value of number1 is :\(x)")
+print("Value of number2 is :\(y)") 
+ 
+x=x+y;
+y=x-y;
+x=x-y;
+ 
+print("After Swapping")
+print("Value of number1 is :\(x)")
+print("Value of number2 is :\(y)") 
