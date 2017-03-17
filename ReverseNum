@@ -1,0 +1,11 @@
+var n:Int = 12345
+var m:Int = n
+var rev:Int = 0
+while m>0
+{
+   let r = m % 10   
+   rev = rev * 10 + r
+   m = m / 10
+}
+
+print(rev)
