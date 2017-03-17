@@ -1,0 +1,5 @@
+var a = [6,3,2,1,5,4]
+
+// Sort (descending) its elements
+a = a.sorted(by:{$0>$1})
+print(a)
