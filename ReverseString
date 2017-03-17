@@ -1,0 +1,3 @@
+let s1 = "qwerty"
+let s2 = String(s1.characters.reversed())
+print(s2)
