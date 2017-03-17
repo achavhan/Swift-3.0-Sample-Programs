@@ -1,0 +1,11 @@
+func digitSum( s : Int) -> Int {
+	var n = s
+	var sum = 0
+    while n > 0 {
+        sum += n % 10 // Add least significant digit ...
+        n /= 10   // ... and remove it from the number. 
+    }
+    return sum
+}
+
+print(digitSum(s:123456789))
