@@ -1,0 +1,21 @@
+func fibanci(f1:Int,f2:Int) {
+
+  var n1:Int = f1	
+  var n2:Int = f2		
+	
+  var sum:Int=0
+  if n1==0 {
+  print("\(n1)\n\(n2)");
+  }
+  sum=n1+n2;
+
+	if sum<=100 {
+		print(sum)		  
+   		n1=n2
+   		n2=sum
+  
+   fibanci(f1:n1,f2:n2);   
+}
+}	
+	
+fibanci(f1:0,f2:1)	
